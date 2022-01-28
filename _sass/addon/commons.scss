@@ -703,18 +703,31 @@ $sidebar-display: "sidebar-display";
 
   .site-title {
     a {
-      @extend %clickable-transition;
+      // @extend %clickable-transition;
 
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
-      color: rgba(134, 133, 133, 99%);
+      color: var(--sidebar-active-color);
+      // color: #555555;
+
+      display:inline-block; 
+
+      &:after {
+        display:block;
+        content: '';
+        border-bottom: solid 2px var(--nav-cursor-color);  
+        transform: scaleX(0);  
+        transition: transform 250ms ease-in-out;
+      }
+      &:hover:after { transform: scaleX(1); }
     }
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: var(--sidebar-muted-color);
+    /* color: var(--sidebar-muted-color); */
+    color: rgba(89, 88, 88, 99%);
     line-height: 1.2rem;
     word-spacing: 1px;
     margin: 0.5rem 1.5rem 0.5rem 1.5rem;
