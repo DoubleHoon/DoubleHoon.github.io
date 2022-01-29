@@ -158,7 +158,7 @@ footer {
     width: 95%;
     max-width: 1045px;
     border-top: 1px solid var(--main-border-color);
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 
     > div {
       width: 350px;
@@ -1186,7 +1186,7 @@ $sidebar-display: "sidebar-display";
 
     > div.d-flex {
       width: 100%;
-      padding: 1.5rem 0;
+      padding: 0.3rem 0;
       margin-bottom: 0.3rem;
       flex-wrap: wrap;
       -ms-flex-pack: distribute !important;
