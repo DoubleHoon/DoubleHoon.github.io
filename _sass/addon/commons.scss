@@ -455,6 +455,9 @@ img[data-src] {
   margin-top: 2rem;
   overflow-wrap: break-word;
   word-wrap: break-word;
+  letter-spacing: 0.01rem;
+  word-spacing: 0.1rem;
+  line-height: 200%;
 
   a {
     &:not(.img-link) {
