@@ -451,13 +451,17 @@ img[data-src] {
 
 .post-content {
   font-size: 1.08rem;
-  line-height: 1.8;
   margin-top: 2rem;
   overflow-wrap: break-word;
   word-wrap: break-word;
   letter-spacing: 0.01rem;
   word-spacing: 0.1rem;
   line-height: 200%;
+
+  p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 
   a {
     &:not(.img-link) {
