@@ -1,5 +1,7 @@
 ---
 title: About
+icon: fas fa-info-circle
+order: 4
 ---
 
 항상 심심한 대학생
