@@ -1,6 +1,6 @@
 ---
 title: AWS Certified Solutions Architect 자격증 취득 후기
-date: 2022-02-13 22:56:00 +0900
+date: 2022-03-02 18:35:00 +0900
 categories: [Review, AWS]
 tags: [AWS, 자격증, Solutions Architect]
 image:
