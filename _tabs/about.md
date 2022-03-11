@@ -1,8 +1,9 @@
 ---
 title: About
-icon: fas fa-info-circle
-order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-note }
+항상 심심한 대학생
+- Back-end (Node.js)
+- PS
+- AI
+- Front-end (Mobile App)
